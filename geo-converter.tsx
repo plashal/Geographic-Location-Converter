@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { MapPin, Upload, Download } from 'lucide-react';
-import Papa from 'papaparse';
+import { MapPin, Upload, Download } from 'lucide-react'; // This import is correct, no fix needed here.
+import Papa from 'papaparse'; // Ensure papaparse is installed: npm install papaparse @types/papaparse
+import { Card, CardHeader, CardTitle, CardContent } from './components/ui/card';
 
 const GeoConverter = () => {
   const [location, setLocation] = useState({
